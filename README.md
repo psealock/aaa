@@ -1,15 +1,12 @@
 # aaa
 
-A WooCommerce Admin Extension
+@woocommerce/navigation error demo
 
-## Development
+###
 
-To get started, run the following commands:
+`src/index.js` includes two items:
 
-```text
-npm install
-npm start
-```
+-   use of `addFilter`
+-   use of @woocommerce/navigation
 
-See [wp-scripts](https://github.com/WordPress/gutenberg/tree/master/packages/scripts) for more usage information.
-
+Alternate the commented out `wp_register_script` dependency declaration in `aaa.php` to confirm neither item can work simultaneously.
